@@ -1,0 +1,13 @@
+print 'wordshuffle'
+x=raw_input('word1:')
+y=raw_input('word2:')
+x=list(x)
+y=list(y)
+x.extend(y)
+import random
+random.shuffle(x)
+x=''.join(x)
+print 'submit:%s' %x
+
+
+    
